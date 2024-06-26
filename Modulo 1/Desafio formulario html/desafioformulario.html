@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <!--Nome Obrigatorio-->
+    <!--Email Obrigatorio-->
+    <!--Descrição-->
+    <!--Seleção do módulo-->
+    <!--Senha obrigatória-->
+    <!--Confirme a senha obrigatória-->
+    <!--Confirmaçao email (sim ou não)-->
+    <!--button para envio-->
+    <form action="">
+
+    
+      <label for="input-name">Nome</label>
+      <div></div>
+      <input id="input-name" type="text" placeholder="Digite seu nome aqui..." required>
+      <div></div>
+      <p></p>    
+
+      <label for="input-email">Email</label>
+      <div></div>
+      <input id="input-mail" type="email" placeholder="Digite seu email aqui..." required>
+      <div></div>
+      <p></p>    
+     
+
+      <label for="textarea-descricao">O que te motivou a participar do evento </label>
+      <div></div>
+      <textarea id="textarea-descricao" placeholder="Descreva aqui..."></textarea>
+      <div></div>
+      <p></p>
+
+        
+      <label for="select-modulo">Selecione seu módulo</label>
+      <div></div>
+         <select id="select-modulo">
+            <option selected disabled>Escolher módulo</option>
+         <option>M1</option>
+         <option>M2</option>
+         <option>M3</option>
+         <option>M4</option>
+         <option>M5</option> 
+    </select>
+    <div></div>
+    <p></p>
+
+    <label for="textarea-senha1"></label>Cadastre uma senha</label>
+    <div></div>
+    <input id="textarea-senha1"  placeholder="Digite sua senha aqui..." type="password" required>
+    <div></div>
+    <p></p>
+
+
+    <label for= "textarea-senha2" placeholder="Confirme sua senha aqui..." type="password">
+    <div></div>
+    <input id="textarea-senha1" placeholder="Repita sua senha." type="password" required>
+    <div></div>
+    <p></p>
+
+    <p>Deseja receber novidades em seu e-mail?</p>
+    
+    <label for="radio-sim">Sim</label>
+    <input id="radio-sim" name="novidades" type="radio">
+
+    <label for="Não">Não</label>
+    <input id="radio-nao" name="novidades" type="radio">
+
+    <div></div>
+    <p></p>
+
+   <!--<input type="submit"> -->
+    <button>Cadastrar</button>
+</form>
+
+</body>
+</html>
